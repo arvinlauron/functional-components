@@ -10,16 +10,16 @@ function App(){
 
     const handleSubmit=(e)=>{
         e.preventDefault();
-        // console.log(name,content,likes)
         const data={name,content,likes:0}
         if(name&&content){
             setList((ls)=>[...ls,data])
             SetName("")
             SetContent("")
-          
 
         }
     }
+
+    
     return(
         <div>
            

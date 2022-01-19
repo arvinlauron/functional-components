@@ -1,8 +1,11 @@
 import React, {useState} from 'react';
 
+
  function LikeButton (props){
     const{likes} = props
     const[count, setCount] = useState(likes)
+    
+    
 
     const increment = () => {
         setCount(count + 1);
