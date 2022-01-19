@@ -8,9 +8,9 @@ function App() {
   const [posts] = useState(
     [
       {key: 1, name: "Gian", content:"Gwapa kay ka", likes:2},
-      {key: 2, name: "Shad", content:"Pogi ko", likes:0},
-      {key: 3, name: "Carlos", content:"Hanging around", likes:0},
-      {key: 4, name: "Reyner", content:"Pagod na ako!", likes:0},
+      {key: 2, name: "Shad", content:"Pogi ko", likes:1},
+      {key: 3, name: "Carlos", content:"Hanging around", likes:3},
+      {key: 4, name: "Reyner", content:"Pagod na ako!", likes:4},
     ]
   );
 
