@@ -5,9 +5,7 @@ import Avatar from '@mui/material/Avatar';
 import {yellow, green, pink,blue,red,orange } from '@mui/material/colors';
 
 function Post (props) {
-    const{name} = props
-    const{content} = props
-    const{likes} = props
+    const{name,content,likes} = props
     const getAvatarBgColor = () => ({
         1: yellow[700],
         2: green[500],

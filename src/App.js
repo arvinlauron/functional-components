@@ -16,7 +16,7 @@ function App() {
 
     return (
       <div className='container'>
-         <NewPost />
+         <NewPost/>
         <div className='app'>
           {posts.map(post => (
             <Post key={post.key} name={post.name} content={post.content} likes={post.likes}  />
